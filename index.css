@@ -87,7 +87,7 @@ iframe{
 }
 @media screen and (max-width: 412px) {
     body {
-        background: rgb(87, 144, 230) ;
+        background: rgb(63, 86, 121) ;
     }
     a {
         font-size: 60px;
@@ -96,7 +96,7 @@ iframe{
     
 @media (orientation: landscape){
     body{
-        background-color: blue;
+        background-color: rgb(37, 37, 156);
     }
 }
 
