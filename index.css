@@ -89,9 +89,16 @@ iframe{
     body {
         background: rgb(87, 144, 230) ;
     }
+    a {
+        font-size: 60px;
+    }
 }
     
-
+@media (orientation: landscape){
+    body{
+        background-color: blue;
+    }
+}
 
 
 
