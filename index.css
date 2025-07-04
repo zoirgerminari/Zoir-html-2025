@@ -43,7 +43,7 @@ img{
 
 h1{
     display: block;
-    color: rgb(75, 67, 67); 
+    color: rgb(9, 24, 156); 
     margin-right: 1500px;
     margin-left: auto; 
      margin-top: 50px;
@@ -59,6 +59,7 @@ h2{
 }
 h3{
     color: rgb(223, 14, 14); 
+    text-decoration:underline;
 
 }
 
