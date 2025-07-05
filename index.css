@@ -1,8 +1,15 @@
 
 body {
-    color:white;
-    background-color: rgb(17, 168, 214);
+    color:rgb(31, 137, 187);
+    
     font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  background-image: url('img/background1.jpg');
+  background-size: cover;       /* A imagem vai cobrir toda a tela */
+  background-position: center;  /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  height: 100vh; 
     
 }
 
@@ -18,7 +25,8 @@ ul{
 a{
     
     color: rgb(10, 13, 201);
-    
+    font-size: 20px;
+    font-weight: bold;
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 0px;
@@ -34,7 +42,7 @@ img{
     margin-top: 20px;
     margin-bottom: auto;
     border: 50%;
-    border: 5px solid #f8f9fa;
+    border: 5px solid #f1f4f5;
 }
 
 .center{
@@ -89,6 +97,15 @@ iframe{
     margin-left: auto;
     margin-top: 10px;
     
+}
+
+.audio {
+    display: flex;
+  flex-direction: column;
+  gap: 56px;
+   /* assim e o comentario no css*/
+  margin-top: 20px;
+   
 }
 @media screen and (max-width: 480px) {
     body {
