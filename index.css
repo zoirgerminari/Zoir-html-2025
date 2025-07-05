@@ -3,6 +3,9 @@ body {
     color:rgb(31, 137, 187);
     /*background-color: rgb(155, 125, 134);*/
     background-image: url('img/lagoaSol.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
     
     font-family: Arial, Helvetica, sans-serif;
 
@@ -37,8 +40,8 @@ a{
 }
 
 img{
-     /*margin-right :auto;*/
-    /*margin-left: 120px;*/
+     margin-right :auto; /* isto avasta um do outro */
+    margin-left: 120px;
     width: 300px;
     height: 300px;
     margin-top: 20px;
@@ -56,16 +59,16 @@ h1{
     color: rgb(9, 24, 156); 
     margin-right: auto;
     margin-left: 40px; 
-     margin-top: 50px;
-    margin-bottom: auto;
+     margin-top: 0px;
+    margin-bottom: 0px;
    
 }
 h2{
-     color: rgb(34, 44, 185); 
+     color: rgb(17, 17, 19); 
   margin-right: auto;
     margin-left: 40px; 
-     margin-top: auto;
-    margin-bottom: 50px;
+     margin-top: 0px;
+    margin-bottom: 0px;
 }
 h3{
     color: rgb(223, 14, 14); 
@@ -73,6 +76,8 @@ h3{
     text-decoration:underline;
      margin-right: auto;
     margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
   /* assim e o comentario no css*/
@@ -81,7 +86,7 @@ button{
     margin-right: auto;
     margin-left: 20px;
     margin-top: 0px;
-   margin-bottom: -10px;
+   margin-bottom: 0px;
     border: none;
     width: 420px;
     height: 55px;
@@ -118,8 +123,9 @@ iframe{
 @media screen and (max-width: 480px) {
     body {
         margin: 20;
+        background-size: cover;    /* A imagem cobre toda a tela */
          background-image: url('img/lagoaSol.png');
-  background-size: cover;    /* A imagem cobre toda a tela */
+  
   background-position: left; /* Centraliza a imagem */
   background-repeat: no-repeat; /* A imagem não se repete */
   height: 100vh;             /* A altura da tela é 100% */
