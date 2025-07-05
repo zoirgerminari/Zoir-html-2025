@@ -116,12 +116,13 @@ button{
 @media screen and (max-width: 480px) {
     body {
         margin: 20;
+        background-color: #18ac3d;
         /*background-size: cover;    /* A imagem cobre toda a tela */
-        background-image: url('img/lagoaSol.png');
+        /*background-image: url('img/lagoaSol.png');
         background-size: 100% 100%;
         background-position: center; /* Centraliza a imagem */
-        background-repeat: no-repeat; /* A imagem não se repete */
-        height: 100vh;             /* A altura da tela é 100% */
+       /* background-repeat: no-repeat; /* A imagem não se repete */
+       /* height: 100vh;   */          /* A altura da tela é 100% */
        
         
      }
@@ -141,18 +142,14 @@ button{
     }
     button{
     
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-}
-   padding: 40px 100px;
+     
+   padding: 400px 1000px;
   font-size: 20px;
-  background-color: #050e64;
+  background-color: #262f7c;
   color: rgb(238, 242, 243);
   border: 10px;
   border-radius: 5px;
-  cursor: pointer;
+  g
   margin: 10px;  
   display: inline-block;
 
