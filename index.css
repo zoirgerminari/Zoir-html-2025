@@ -81,54 +81,26 @@ h3{
 
 }
   /* assim e o comentario no css*/
-/*button{
-    /*display: inline-block;*/
-    /* display: flex;
-      gap: 5px;   Espaçamento entre os botões 
-   display: block;
-    margin-right: 1200px;
-    margin-left: 0px;
-     margin-top: 10px;
-     margin-top: 20px;
-    margin-bottom: auto;
-  
-    border: none;
-    width: 420px;
-    height: 55px;
-    border-radius: 0;
-    background-color: rgb(192, 29, 78);
-    font-family: inherit;
-    color: rgb(245, 248, 250);
-    font-size: 20px;
-    cursor: pointer;
-
-}*/
-
-.camera-button {
-      background-color: #0099ff; /* Cor de fundo */
-      color: white;
-  /*padding: 10px 20px;*/
-      width: 420px;
-      height: 55px;
-     border: none; /* Remover a borda padrão */
-     font-size: 16px;
-     cursor: pointer; /* Mostrar o ponteiro ao passar o mouse */
-     border-radius: 5px; /* Bordas arredondadas */
+button{
+    /* Resetando margem e padding para garantir que não há espaçamento indesejado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Impede que margens e preenchimentos afetem o layout */
+}
+   padding: 40px 100px;
+  font-size: 20px;
+  background-color: #16a05b;
+  color: rgb(78, 35, 9);
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;  /* Apenas margem controlada entre os botões */
+  display: inline-block;
 
 }
-.light-button {
-    display: inline-block;
-    border: none;
-    width: 420px;
-    height: 55px;
-    /*border-radius: 0;*/
-    background-color: rgb(102, 172, 11);
-    font-family: inherit;
-    color: rgb(245, 248, 250);
-    font-size: 40px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
+
 
 
 
