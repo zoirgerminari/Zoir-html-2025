@@ -117,10 +117,10 @@ iframe{
 
 @media screen and (max-width: 480px) {
     body {
-        margin: 0;
+        margin: 20;
          background-image: url('img/background1.jpg');
   background-size: cover;    /* A imagem cobre toda a tela */
-  background-position: center; /* Centraliza a imagem */
+  background-position: left; /* Centraliza a imagem */
   background-repeat: no-repeat; /* A imagem não se repete */
   height: 100vh;             /* A altura da tela é 100% */
        
@@ -129,7 +129,7 @@ iframe{
     a {
         font-size: 4rem;
     font-weight: bold;
-    color: rgb(221, 9, 175);
+    color: rgb(207, 221, 9);
     }
     h1{
        font-size: 4rem; 
