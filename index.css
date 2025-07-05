@@ -110,9 +110,11 @@ iframe{
   margin-top: 20px;
    
 }
+
 @media screen and (max-width: 480px) {
     body {
         margin: 0;
+         background-size: cover; 
         background-image: url('img/background1.jpg');
         background-size: cover; 
         
@@ -130,6 +132,9 @@ iframe{
     }
     h3{
        font-size: 8rem;  
+    }
+    img{
+         height: auto; 
     }
 }
     
