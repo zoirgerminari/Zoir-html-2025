@@ -12,4 +12,22 @@ body {
      text-align: center;
 }
   
-  
+    /* assim e o comentario no css*/
+button{
+    /* Resetando margem e padding para garantir que não há espaçamento indesejado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Impede que margens e preenchimentos afetem o layout */
+}
+   padding: 40px 100px;
+  font-size: 20px;
+  background-color: #d85f0e;
+  color: rgb(238, 242, 243);
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;  /* Apenas margem controlada entre os botões */
+  display: inline-block;
+
+}
