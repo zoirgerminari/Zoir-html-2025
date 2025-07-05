@@ -34,7 +34,7 @@ img{
     margin-top: 20px;
     margin-bottom: auto;
     border: 50%;
-    border: 5px solid #28b9dd;
+    border: 5px solid #f8f9fa;
 }
 
 .center{
@@ -100,16 +100,7 @@ iframe{
     }
 }
     
-@media (orientation: landscape){
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-         font-weight: bold;
-        color:blue;
-        background-image: url("img/background1.jpg");
-        background-color: rgb(163, 163, 184);
-    }
-}
+
 
 
 
