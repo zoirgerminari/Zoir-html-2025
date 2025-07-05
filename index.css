@@ -105,26 +105,25 @@ h3{
 }*/
 
 .camera-button {
-      border: none;
-    width: 420px;
-    height: 55px;
-    border-radius: 0;
-    background-color: rgb(46, 11, 172);
-    font-family: inherit;
-    color: rgb(245, 248, 250);
-    font-size: 20px;
-    cursor: pointer;
+      background-color: #0099ff; /* Cor de fundo */
+  color: white;
+  padding: 10px 20px;
+  border: none; /* Remover a borda padrão */
+  font-size: 16px;
+  cursor: pointer; /* Mostrar o ponteiro ao passar o mouse */
+  border-radius: 5px; /* Bordas arredondadas */
 
 }
-.camera-button {
+.light-button {
+    display: inline-block;
       border: none;
     width: 420px;
     height: 55px;
-    border-radius: 0;
+    /*border-radius: 0;*/
     background-color: rgb(46, 11, 172);
     font-family: inherit;
     color: rgb(245, 248, 250);
-    font-size: 20px;
+    font-size: 40px;
     cursor: pointer;
 
 }
