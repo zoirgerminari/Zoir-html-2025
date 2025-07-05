@@ -62,7 +62,7 @@ h3{
     text-decoration:underline;
 
 }
-
+  /* assim e o comentario no css*/
 button{
     display: block;
     margin-right: auto;
@@ -90,13 +90,13 @@ iframe{
     margin-top: 10px;
     
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
     body {
-        background: rgb(63, 86, 121) ;
+        background: rgb(103, 138, 190) ;
         
     }
     a {
-        font-size: 60px;
+        font-size: 1rem;
     }
 }
     
@@ -107,7 +107,7 @@ iframe{
          font-weight: bold;
         color:blue;
         background-image: url("img/background1.jpg");
-        background-color: rgb(9, 9, 90);
+        background-color: rgb(163, 163, 184);
     }
 }
 
