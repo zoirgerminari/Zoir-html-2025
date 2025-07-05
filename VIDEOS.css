@@ -10,7 +10,8 @@ iframe{
     /*border: 40%;
      margin-right: 0px;
     /*margin-left: auto;*/
-
+   display: flex;
+  flex-direction: column;
     margin-top: 10px;
     margin-bottom: auto;
     border: none;
