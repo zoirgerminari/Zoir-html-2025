@@ -114,16 +114,19 @@ iframe{
     body {
         margin: 0;
         background-image: url('img/background1.jpg');
-        width: 1220px;
-        height: 640px;
+        background-size: cover; 
+        
      }
     a {
         font-size: 4rem;
     font-weight: bold;
-    color: rgb(221, 9, 27);
+    color: rgb(9, 221, 20);
     }
     h1{
        font-size: 4rem; 
+    }
+    h2{
+       font-size: 8rem; 
     }
     h3{
        font-size: 8rem;  
