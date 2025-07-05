@@ -109,11 +109,14 @@ iframe{
 }
 @media screen and (max-width: 480px) {
     body {
-        background: rgb(160, 167, 63) ;
+        background: rgb(179, 16, 70) ;
         
     }
     a {
         font-size: 4rem;
+    }
+    h1{
+       font-size: 4rem; 
     }
 }
     
