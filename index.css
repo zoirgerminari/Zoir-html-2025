@@ -81,14 +81,14 @@ h3{
 
 }
   /* assim e o comentario no css*/
-button{
+/*button{
     /*display: inline-block;*/
-     display: flex;
-      gap: 5px;  /* Espaçamento entre os botões */
-   /*display: block;*/
-   /* margin-right: 1200px;
+    /* display: flex;
+      gap: 5px;   Espaçamento entre os botões 
+   display: block;
+    margin-right: 1200px;
     margin-left: 0px;
-     margin-top: 10px;*/
+     margin-top: 10px;
      margin-top: 20px;
     margin-bottom: auto;
   
@@ -97,6 +97,19 @@ button{
     height: 55px;
     border-radius: 0;
     background-color: rgb(192, 29, 78);
+    font-family: inherit;
+    color: rgb(245, 248, 250);
+    font-size: 20px;
+    cursor: pointer;
+
+}*/
+
+.camera-button {
+      border: none;
+    width: 420px;
+    height: 55px;
+    border-radius: 0;
+    background-color: rgb(46, 11, 172);
     font-family: inherit;
     color: rgb(245, 248, 250);
     font-size: 20px;
