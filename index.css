@@ -116,19 +116,19 @@ button{
 @media screen and (max-width: 480px) {
     body {
         margin: 20;
-        background-size: cover;    /* A imagem cobre toda a tela */
-         background-image: url('img/lagoaSol.png');
-  
-  background-position: left; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* A imagem não se repete */
-  height: 100vh;             /* A altura da tela é 100% */
+        /*background-size: cover;    /* A imagem cobre toda a tela */
+        background-image: url('img/lagoaSol.png');
+        background-size: 100% 100%;
+        background-position: left; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* A imagem não se repete */
+        height: 100vh;             /* A altura da tela é 100% */
        
         
      }
     a {
         font-size: 4rem;
     font-weight: bold;
-    color: rgb(207, 221, 9);
+    color: rgb(27, 13, 224);
     }
     h1{
        font-size: 4rem; 
