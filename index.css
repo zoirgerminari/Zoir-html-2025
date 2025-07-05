@@ -2,7 +2,7 @@
 body {
     color:rgb(31, 137, 187);
     /*background-color: rgb(155, 125, 134);*/
-    background-image: url('img/background1.jpg');
+    background-image: url('img/lagoaSol.png');
     
     font-family: Arial, Helvetica, sans-serif;
 
@@ -118,7 +118,7 @@ iframe{
 @media screen and (max-width: 480px) {
     body {
         margin: 20;
-         background-image: url('img/background1.jpg');
+         background-image: url('img/lagoaSol.png');
   background-size: cover;    /* A imagem cobre toda a tela */
   background-position: left; /* Centraliza a imagem */
   background-repeat: no-repeat; /* A imagem não se repete */
