@@ -106,40 +106,31 @@ h3{
 
 .camera-button {
       background-color: #0099ff; /* Cor de fundo */
-  color: white;
-  padding: 10px 20px;
-  border: none; /* Remover a borda padrão */
-  font-size: 16px;
-  cursor: pointer; /* Mostrar o ponteiro ao passar o mouse */
-  border-radius: 5px; /* Bordas arredondadas */
+      color: white;
+  /*padding: 10px 20px;*/
+      width: 420px;
+      height: 55px;
+     border: none; /* Remover a borda padrão */
+     font-size: 16px;
+     cursor: pointer; /* Mostrar o ponteiro ao passar o mouse */
+     border-radius: 5px; /* Bordas arredondadas */
 
 }
 .light-button {
     display: inline-block;
-      border: none;
+    border: none;
     width: 420px;
     height: 55px;
     /*border-radius: 0;*/
-    background-color: rgb(46, 11, 172);
+    background-color: rgb(102, 172, 11);
     font-family: inherit;
     color: rgb(245, 248, 250);
     font-size: 40px;
     cursor: pointer;
-
+    border-radius: 5px;
 }
 
-iframe{ 
-    width: 320px;
-    height: 240px;
-    /*border: 40%;
-     margin-right: 0px;
-    /*margin-left: auto;*/
 
-    margin-top: 10px;
-    margin-bottom: auto;
-    border: none;
-    
-}
 
 .audio {
     display: flex;
