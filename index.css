@@ -24,7 +24,7 @@ ul{
 
 a{
     
-    color: rgb(201, 16, 47);
+    color: rgb(31, 9, 231);
     font-size: 20px;
     font-weight: bold;
     margin-right: 100px;
@@ -109,11 +109,17 @@ iframe{
 }
 @media screen and (max-width: 480px) {
     body {
-        background: rgb(179, 16, 70) ;
+  margin: 0;
+  background-image: url('img/background1.jpg');
+  background-size: cover;       /* A imagem vai cobrir toda a tela */
+  background-position: center;  /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  height: 100vh; 
         
     }
     a {
         font-size: 4rem;
+    font-weight: bold;
     }
     h1{
        font-size: 4rem; 
