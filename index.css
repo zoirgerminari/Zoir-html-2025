@@ -107,9 +107,9 @@ iframe{
   margin-top: 20px;
    
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
     body {
-        background: rgb(103, 138, 190) ;
+        background: rgb(160, 167, 63) ;
         
     }
     a {
