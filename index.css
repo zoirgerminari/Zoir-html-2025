@@ -1,15 +1,17 @@
 
 body {
     color:rgb(31, 137, 187);
+    /*background-color: rgb(155, 125, 134);*/
+    background-image: url('img/background1.jpg');
     
     font-family: Arial, Helvetica, sans-serif;
 
-  margin: 0;
-  background-image: url('img/background1.jpg');
+  /*margin: 0;
+ /* background-image: url('img/background1.jpg');
   background-size: cover;       /* A imagem vai cobrir toda a tela */
-  background-position: center;  /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Impede que a imagem se repita */
-  height: 100vh; 
+  /*background-position: center;  /* Centraliza a imagem */
+  /*background-repeat: no-repeat; /* Impede que a imagem se repita */
+ /* height: 100vh; */
     
 }
 
@@ -25,7 +27,7 @@ ul{
 a{
     
     color: rgb(31, 9, 231);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-right: 100px;
     margin-left: 100px;
@@ -35,8 +37,8 @@ a{
 }
 
 img{
-     margin-right :auto;
-    margin-left: 120px;
+     /*margin-right :auto;*/
+    /*margin-left: 120px;*/
     width: 300px;
     height: 300px;
     margin-top: 20px;
@@ -79,26 +81,28 @@ button{
     margin-right: auto;
     margin-left: 20px;
     margin-top: 0px;
-    margin: bottom 10px;;
+   margin-bottom: -10px;
     border: none;
     width: 420px;
     height: 55px;
     border-radius: 0;
     background-color: rgb(192, 29, 78);
     font-family: inherit;
-    color: aliceblue;
+    color: rgb(245, 248, 250);
     font-size: 20px;
     cursor: pointer;
 
 }
 
 iframe{ 
-    width: 320px;
+    width: 420px;
     height: 240px;
-    border: 80%;
+    /*border: 40%;
      margin-right: 0px;
-    margin-left: auto;
-    margin-top: 10px;
+    /*margin-left: auto;*/
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: none;
     
 }
 
@@ -107,7 +111,7 @@ iframe{
   flex-direction: column;
   gap: 56px;
    /* assim e o comentario no css*/
-  margin-top: 20px;
+  margin-top: 10px;
    
 }
 
@@ -125,7 +129,7 @@ iframe{
     a {
         font-size: 4rem;
     font-weight: bold;
-    color: rgb(9, 221, 37);
+    color: rgb(221, 9, 175);
     }
     h1{
        font-size: 4rem; 
