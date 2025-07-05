@@ -103,6 +103,18 @@ button{
     cursor: pointer;
 
 }
+.light-button {
+      border: none;
+    width: 420px;
+    height: 55px;
+    border-radius: 0;
+    background-color: rgb(192, 29, 78);
+    font-family: inherit;
+    color: rgb(245, 248, 250);
+    font-size: 20px;
+    cursor: pointer;
+
+}
 
 iframe{ 
     width: 320px;
