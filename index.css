@@ -2,7 +2,8 @@
 body {
     color:rgb(31, 137, 187);
     /*background-color: rgb(155, 125, 134);*/
-    background-image: url('img/lagoaSol.png');
+    background-image: url('img/PORSOL2.JPG');
+    background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
      background-size: cover;
