@@ -65,7 +65,7 @@ h1{
    
 }
 h2{
-     color: rgb(17, 17, 19); 
+     color: rgb(26, 52, 73); 
   margin-right: auto;
     margin-left: 40px; 
      margin-top: 0px;
@@ -93,7 +93,7 @@ h3{
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 380px) {
     body {
         
         
