@@ -96,6 +96,8 @@ h3{
     body {
         margin: 20;
         background-color: #18ac3d;
+        background-image: url(imagens/PORSOL2.JPG);
+        background-size: cover; 
         /*background-size: cover;    /* A imagem cobre toda a tela */
         /*background-image: url('img/lagoaSol.png');
         background-size: 100% 100%;
