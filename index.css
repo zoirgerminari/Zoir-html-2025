@@ -83,30 +83,14 @@ h3{
 }
 
 
-.audio {
-    display: flex;
-  flex-direction: column;
-  gap: 56px;
-   /* assim e o comentario no css*/
-  margin-top: 10px;
-   
-}
+
 
 
 @media screen and (max-width: 380px) {
     body {
         
         
-        background-image: url(imagens/PORSOL2.JPG);
-         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        /*background-size: cover;    /* A imagem cobre toda a tela */
-        /*background-image: url('img/lagoaSol.png');
-        background-size: 100% 100%;
-        background-position: center; /* Centraliza a imagem */
-       /* background-repeat: no-repeat; /* A imagem não se repete */
-        height: 100vh;   
+    
        
         
      }
