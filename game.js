@@ -6,10 +6,14 @@ const gameOver = document.querySelector('.game-over');
 const audioStart = new Audio('./src/audio/audio_theme.mp3');
 const audioGameOver = new Audio('./src/audio/audio_gameover.mp3');
 
+let gameLoop = null;
+
 const startGame = () => {
+  clearInterval(gameLoop); // Limpa loop anterior
   pipe.classList.add('pipe-animation');
   start.style.display = 'none';
   audioStart.play();
+  loop(); // Inicia o loop
 };
 
 const restartGame = () => {
@@ -24,6 +28,7 @@ const restartGame = () => {
   audioGameOver.currentTime = 0;
   audioStart.play();
   audioStart.currentTime = 0;
+  startGame(); // Reinicia o jogo
 };
 
 const jump = () => {
@@ -33,9 +38,8 @@ const jump = () => {
   }, 800);
 };
 
-let gameLoop = null;
-
 const loop = () => {
+  clearInterval(gameLoop); // Garante que só um loop roda
   gameLoop = setInterval(() => {
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
@@ -59,7 +63,7 @@ const loop = () => {
   }, 10);
 };
 
-loop();
+// Remova o loop() daqui, pois agora ele é chamado em startGame/restartGame
 
 document.addEventListener('keypress', e => {
   if (e.key === ' ') jump();
