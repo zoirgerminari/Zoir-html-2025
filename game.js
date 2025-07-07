@@ -21,7 +21,7 @@ const restartGame = () => {
   gameOver.style.display = 'none'
   pipe.style.left = ''
   pipe.style.right = '0'
-  mario.src = 'img/mario.gif '  // AGORA ESTA OK                 
+  mario.src = 'img/mario.gif'  // AGORA ESTA OK                 
   mario.style.width = '150px'
   mario.style.bottom = '0'
 
@@ -51,7 +51,7 @@ const loop = () => {
       .bottom.replace('px', ' ')
 
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
-      pipe.classList.remove('.pipe-animation')
+      pipe.classList.remove('pipe-animation')
       pipe.style.left = `${pipePosition}px`
 
       mario.classList.remove('.jump')
