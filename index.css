@@ -1,6 +1,11 @@
-
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body {
+    min-height: 100vh;
     color: rgb(31, 137, 187);
     /*background-color: rgb(155, 125, 134);*/
     background-image: url('img/PORSOL2.JPG');
