@@ -11,7 +11,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87CEEB, #E0F6FF);
+    background: linear-gradient(#7a107e, #b42a11);
 }
 
 button {
@@ -54,8 +54,9 @@ button :hover {    border: 2px solid green;
 .pipe {
     position: absolute;
     bottom: 0;
-    right: -80px;
-    width: 80px;
+    right: -480px;
+    width: 450px;
+   
 }
 
 .mario{
