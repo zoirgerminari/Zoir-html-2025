@@ -87,9 +87,14 @@ h3{
 
 @media screen and (max-width: 480px) {
     body {
-         background: linear-gradient(to bottom, #473806, #ebdc55);
+        
          margin: 0;
       padding: 0;
+      background: linear-gradient(to bottom, #473806, #ebdc55);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;           /* Faz a imagem cobrir toda a tela */
+    font-family: Arial, Helvetica, sans-serif;
         
         
     
