@@ -1,14 +1,8 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     min-height: 100vh;
-   /* color: rgb(31, 137, 187);
-    /*background-color: rgb(155, 125, 134);*/
-    /*background-image: url('img/PORSOL2.JPG');*/
+   
     background: linear-gradient(to bottom, #473806, #ebdc55);
     background-repeat: no-repeat;
     background-position: center;
@@ -40,14 +34,14 @@ a{
 }
 
 img{
-     margin-right :auto; /* isto avasta um do outro */
+     margin-right: auto;
     margin-left: 120px;
     width: 300px;
     height: 300px;
     margin-top: 20px;
-    margin-bottom: auto;
-    border: 50%;
-    border: 5px solid #f1f4f5;
+    margin-bottom: 0;
+    border-radius: 0%;
+    border: 5px solid #ebe7e0;
 }
 
 .center{
@@ -122,7 +116,7 @@ h3{
      padding: 100px 500px;
      font-size: 20px;
      background-color: #222225;
-     color: rgb(238, 242, 243);
+     color: rgb(20, 83, 99);
     border: 10px;
     border-radius: 5px;
   
