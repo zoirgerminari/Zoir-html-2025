@@ -23,7 +23,7 @@ ul{
 
 a{
     
-    color: rgb(54, 43, 5);
+    color: rgb(219, 210, 175);
     font-size: 30px;
     font-weight: bold;
     margin-right: 100px;
@@ -82,9 +82,9 @@ h3{
 @media screen and (max-width: 480px) {
     body {
         
-         margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #473806, #ebdc55);
+      min-height: 100vh;
+   
+    background: linear-gradient(to bottom, #473806, #ebdc55);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;           /* Faz a imagem cobrir toda a tela */
