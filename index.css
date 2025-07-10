@@ -6,9 +6,10 @@ html, body {
 
 body {
     min-height: 100vh;
-    color: rgb(31, 137, 187);
+   /* color: rgb(31, 137, 187);
     /*background-color: rgb(155, 125, 134);*/
-    background-image: url('img/PORSOL2.JPG');
+    /*background-image: url('img/PORSOL2.JPG');*/
+    background: linear-gradient(to bottom, #473806, #ebdc55);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;           /* Faz a imagem cobrir toda a tela */
