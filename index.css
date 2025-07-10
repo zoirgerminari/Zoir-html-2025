@@ -87,6 +87,7 @@ h3{
 
 @media screen and (max-width: 480px) {
     body {
+         background: linear-gradient(to bottom, #473806, #ebdc55);
          margin: 0;
       padding: 0;
         
