@@ -1,0 +1,30 @@
+
+body{
+    color: rgb(204, 170, 59);
+    background-color: rgb(145, 115, 18);
+    text-decoration: none;
+}
+  /* assim e o comentario no css*/
+.quadros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.item img {
+  width: 400px; /* ou o tamanho desejado */
+  height: auto;
+  border: 2px solid rgb(204, 170, 59);
+}
+
+.item p {
+  margin: 40px;
+  font-size: 26px;
+}
