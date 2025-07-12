@@ -14,11 +14,11 @@ body {
 
 ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* ← muda para linha */
   list-style-type: none;
   padding: 16px;
-  gap: 24px; /* Aumenta o espaço entre os links */
-  align-items: flex-start; /* ou 'center' se quiser centralizar */
+  gap: 24px; /* Espaço entre os itens na horizontal */
+  align-items: center; /* alinha verticalmente */
 }
 
 a {
@@ -26,30 +26,39 @@ a {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  margin: 0; /* remove margens inúteis */
+  margin: 0;
 }
 
-img{
-    /* margin-right: auto;
-    margin-left: 120px;
-    width: 300px;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 0;
-    border-radius: 0%;
-    border: 5px solid #ebe7e0;*/
-    margin-right: auto;
 
-      margin-left: 120px;
-    max-width: 300px;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 0%;
-    border: 5px solid #ebe7e0;
+
+    img {
+  display: block; /* garante controle de alinhamento */
+  margin-left: 0;      /* alinha à esquerda */
+  margin-right: auto;  /* empurra o restante para a direita */
+  margin-top: 20px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 0%;
+  border: 5px solid #ebe7e0;
 }
 
-.center{
-    text-align: center;
+
+
+
+.center {
+  display: flex;                /* Coloca as imagens em linha */
+  justify-content: flex-start; /* Alinha à esquerda */
+  gap: 20px;                    /* Espaço entre elas (opcional) */
+  margin: 0;
+  padding: 0;
+}
+
+.center img {
+  max-width: 300px;
+  height: auto;
+  margin: 0;                    /* Remove margens das imagens */
+  border-radius: 0%;
+  border: 5px solid #ebe7e0;
 }
 
 h1{
