@@ -84,60 +84,73 @@ h3{
 }
 
 
-
-/*.........................................................*/
-
+/*....................MOBILE......................................*/
+    
 @media screen and (max-width: 780px) {
 
-    html, body {
-  margin: 0;
-  padding: 0;
-   width: 100%;
-   overflow: visible;
-}
-    body {
-        
-      min-height: 100vh;
-   
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* evita rolagem lateral */
+  }
+
+  body {
+    min-height: 100vh;
     background: linear-gradient(to bottom, #473806, #ebdc55);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;           /* Faz a imagem cobrir toda a tela */
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-        
-    }
-    a {
-         display: flex;
-         flex-direction: column;
-         gap: 1rem; /* Espaço entre os links */
-         font-size: 2rem;
-         font-weight: bold;
-         color: rgb(27, 13, 224);
-    }
-    h1{
-       font-size: 2rem; 
-    }
-    h2{
-       font-size: 3rem; 
-    }
-    h3{
-       font-size: 3rem;  
-    }
-    button{
-     padding: 100px 500px;
-     font-size: 20px;
-     background-color: #222225;
-     color: rgb(20, 83, 99);
-    border: 10px;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem; /* menor no mobile */
+    font-weight: bold;
+    color: rgb(27, 13, 224);
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #222225;
+    color: rgb(20, 83, 99);
+    border: none;
     border-radius: 5px;
-  
-    margin: 20px;  
-    display: inline-block;
+    margin: 20px auto;
+    display: block; /* centraliza o botão */
+  }
+
+  img {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0%;
+    border: 5px solid #ebe7e0;
+    display: block;
+  }
 
 }
-   
-}
-    
 
 
 
