@@ -10,7 +10,7 @@ body {
 }
 
 .item img {
-  width: 100px; /* ou o tamanho desejado */
+  width: 300px; /* ou o tamanho desejado */
   height: auto;
   border: 5px solid rgb(250, 249, 244);
 }
@@ -18,4 +18,21 @@ body {
 .item p {
   margin: 40px;
   font-size: 26px;
+}
+
+/*.................................mobile..................................*/
+@media screen and (max-width: 780px) {
+  body {
+    background-color: rgb(16, 160, 185);
+    font-size: 1rem;
+  }
+
+  .item img {
+    width: 200px; /* ajuste para telas menores */
+  }
+
+  .item p {
+    font-size: 1.2rem; /* ajuste para telas menores */
+    margin: 20px;
+  }
 }
