@@ -17,16 +17,16 @@ ul {
   flex-direction: row; /* ← muda para linha */
   list-style-type: none;
   padding: 16px;
-  gap: 24px; /* Espaço entre os itens na horizontal */
+  gap: 64px; /* Espaço entre os itens na horizontal */
   align-items: center; /* alinha verticalmente */
 }
 
 a {
-  color: rgb(219, 210, 175);
+  color: rgb(151, 123, 12);
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  margin: 0;
+  margin: 10;
 }
 
 
