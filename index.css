@@ -12,27 +12,21 @@ body {
     
 
 
-ul{
-     flex-direction: column;
-    
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: left;
-    padding: 16px;
-     
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 16px;
+  gap: 24px; /* Aumenta o espaço entre os links */
+  align-items: flex-start; /* ou 'center' se quiser centralizar */
 }
 
-a{
-    
-    color: rgb(219, 210, 175);
-    font-size: 30px;
-    font-weight: bold;
-    margin-right: 100px;
-    margin-left: 50px;
-    margin-top: 0px;
-    margin-bottom: auto;
-     text-decoration: none;
+a {
+  color: rgb(219, 210, 175);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0; /* remove margens inúteis */
 }
 
 img{
