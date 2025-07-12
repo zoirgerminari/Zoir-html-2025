@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+      background-position: center;
+    background-size: cover; 
+    color: rgb(189, 10, 10);
+    text-decoration: none;
+    margin: auto;
+     width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#b044b6, #220b27);
+}
 
 .game{
     width: 100%;
