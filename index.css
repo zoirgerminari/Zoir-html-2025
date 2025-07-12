@@ -13,10 +13,12 @@ body {
 
 
 ul{
+     flex-direction: column;
+    
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    align-items: center;
+    align-items: left;
     padding: 16px;
      
 }
