@@ -10,7 +10,7 @@ body {
 }
 
 .item img {
-  width: 400px; /* ou o tamanho desejado */
+  width: 100px; /* ou o tamanho desejado */
   height: auto;
   border: 5px solid rgb(250, 249, 244);
 }
