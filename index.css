@@ -132,7 +132,7 @@ ul {
 }
 
 a {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   color: rgb(170, 140, 22);
   text-align: left;             /* texto alinhado à esquerda */
@@ -142,9 +142,9 @@ a {
   h1 {
      display: flex;
      position: absolute;
-     top: 0%;
+     top: 1%;
      left: 10%;
-    font-size: 1.8rem;       /* Zaothec Systems */
+    font-size: 2rem;       /* Zaothec Systems */
     color: rgb(168, 179, 19);
     background-color: #473806;
   }
@@ -155,7 +155,7 @@ a {
   text-decoration: none;
   position: absolute;
   top: 65%;
-  font-size: 20px;
+  font-size: 30px;
   color: #072435;
 }
 .titulo {
@@ -171,7 +171,7 @@ a {
   width: 100%;
   padding: 10px 20px;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   color: #756e0e;
   background-color: #ebdc55; /* opcional */
 }
@@ -198,7 +198,7 @@ h3{
   gap: 10px;              /* espaço entre as imagens */
   position: relative;
   top: -400px;             /* sobe o bloco */
-  left:60px;             /* move para a esquerda */
+  left:70px;             /* move para a esquerda */
   align-items: center;    /* opcional: centraliza as imagens */
 }
 
