@@ -101,19 +101,21 @@ h3{
   }
 
   body {
-    min-height: 100vh;
+   
     background: linear-gradient(to bottom, #473806, #ebdc55);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+     
   }
 ul {
   display: flex;
   flex-direction: column;       /* coloca os itens em coluna */
   align-items: flex-start;      /* alinha à esquerda */
   list-style-type: none;
-  padding: 16px;
+  padding: 26px;
   gap: 24px;
 }
 
@@ -126,31 +128,65 @@ a {
 }
 
   h1 {
-    font-size: 1.8rem;
-    text-align: center;
+     display: flex;
+     position: absolute;
+  top: 0%;
+     left: 10%;
+    font-size: 1.8rem;       /* zoir germinari */
+             /* alinhado à esquerda */
+    color: rgb(204, 193, 32);
   }
 
   h2 {
-    font-size: 2rem;
-    text-align: center;
+     display: flex;
+    font-size: 1rem;              /* software development texto*/
+    text-align: left;           /* alinhado à esquerda */
+       position: absolute;
+  top: 70%;
+  left: 0%;
+   background-repeat: no-repeat;
+ 
+    color: rgb(116, 138, 21);
   }
-
-  h3 {
-    font-size: 1.6rem;
-    text-align: center;
+h3{
+  display: flex;
+    font-size: 1.8rem;
+    text-align: 40%;           /* under construction */
+    text-decoration: underline;
+      position: absolute;
+  top: 70%;
   }
-
-
 
   img {
-    margin: 20px auto;
-    width: 90%;
-    max-width: 100px;
-    height: auto;
-    border-radius: 0%;
-    border: 5px solid #ebe7e0;
-    display: block;
+    max-width: 100%; /* garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* mantém a proporção da imagem */
+    margin: 10px auto; /* centraliza a imagem */
   }
+
+
+.center {
+  display: flex;
+  flex-direction: column;       /* Empilha as imagens na vertical */
+  gap: 0px;                    /* Espaço entre elas */
+  padding: 3px;
+  border:none;    /* Borda ao redor das imagens */
+  border-radius: 8px;           /* (Opcional) Cantos arredondados */
+  width: 0px;                   /* Ajuste o tamanho como quiser */
+  margin: 10px auto;               /* Centraliza na tela */
+}
+
+.center img {             /*  foto */
+   display: block;
+    position: absolute;
+    margin-right: 20%;
+  top: 10%;
+  right: 50px ;
+  width: 50px;        /* tamanho foto */
+  height: 50px;      /* Mantém a proporção original da imagem */
+  
+  border-radius: 0%;
+  border: 5px solid #ebe7e2;
+}
 
 }
 

@@ -3,14 +3,22 @@ body{
     color: rgb(204, 170, 59);
     background-color: rgb(145, 115, 18);
     text-decoration: none;
+     display: flex;
+      align-items: start; 
+      justify-content: start;
+      height: 100vh;
+
 }
 a{
    color: rgb(147, 14, 180); /* BACK  */
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
-   margin-top: 0px;
-  margin: 20px;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+ 
+
   }
   h1{
     display: block;
@@ -48,12 +56,61 @@ a{
 }
 /*.................................mobile..................................*/
 @media screen and (max-width: 780px) {
+  body{
+    color: rgb(41, 131, 14);
+    background-color: rgb(168, 207, 95);
+    text-decoration: none;
+     display: flex;
+      align-items: start; 
+      justify-content: start;
+      height: 100vh;
+     
+}
 
 a{
     color: rgb(46, 30, 119);
-    font-size: 1rem;
+    font-size: 2rem;
     width: 400px;
     text-decoration: none;
+     position: absolute;
+  top: 5%;
+  left: 70%;
   }
+    h1{
+    display: block;
+    color: rgb(11, 148, 107); /*.........ARTS.........*/
+    font-size: 60px;
+    margin-right: auto;
+    margin-left: 20px; 
+     margin-top: 20px;
+    margin-bottom: 0px;
+   
+}
+  
+  .quadros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+   position: absolute;
+  top: 20%;
+}
+
+.item {
+  display: flex;
+  align-items: left;
+  gap: 25px;
+}
+
+.item img {
+  width: 200px; /* ou o tamanho desejado */
+  height: auto;
+  border: 2px solid rgb(204, 170, 59);
+}
+
+.item p {
+  margin: 20px;
+  font-size: 16px;
+}
 
 }
