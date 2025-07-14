@@ -132,8 +132,8 @@ ul {
 }
 
 a {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  
   color: rgb(170, 140, 22);
   text-align: left;             /* texto alinhado à esquerda */
   text-decoration: none;
