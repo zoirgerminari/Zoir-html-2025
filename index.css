@@ -165,7 +165,7 @@ a {
 }
 
 .texto-final {
-  position: fixed;
+  position: relative;
   bottom: 20px;  /* antes estava 0, agora sobe 20px */
   left: 0;
   width: 100%;
