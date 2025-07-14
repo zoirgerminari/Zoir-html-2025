@@ -130,37 +130,45 @@ a {
   h1 {
      display: flex;
      position: absolute;
-  top: 0%;
+     top: 0%;
      left: 10%;
     font-size: 1.8rem;       /* zoir germinari */
-             /* alinhado à esquerda */
     color: rgb(204, 193, 32);
   }
 
   h2 {
-     display: flex;
-    font-size: 1rem;              /* software development texto*/
-    text-align: left;           /* alinhado à esquerda */
-       position: absolute;
-  top: 70%;
-  left: 0%;
-   background-repeat: no-repeat;
- 
-    color: rgb(116, 138, 21);
-  }
+  display: flex;
+  text-align: 40%;           /* textao */
+  text-decoration: none;
+  position: absolute;
+  top: 65%;
+  font-size: 20px;
+  color: #072435;
+}
+.footer-text {
+  margin-top: 80px;
+  margin-left: 0;
+  margin-right: 20px;
+  text-align: left;
+  color: #123e57;
+  font-size: 16px;
+  width: 100%;
+  padding: 480px 20px; /* um pequeno espaço nas laterais, se quiser */
+}
+
 h3{
   display: flex;
     font-size: 1.8rem;
     text-align: 40%;           /* under construction */
     text-decoration: underline;
       position: absolute;
-  top: 70%;
+  top: 60%;
   }
 
   img {
-    max-width: 100%; /* garante que a imagem não ultrapasse a largura da tela */
-    height: auto; /* mantém a proporção da imagem */
-    margin: 10px auto; /* centraliza a imagem */
+   display: flex;
+  align-items: left;
+  gap: 25px;
   }
 
 
@@ -171,21 +179,14 @@ h3{
   padding: 3px;
   border:none;    /* Borda ao redor das imagens */
   border-radius: 8px;           /* (Opcional) Cantos arredondados */
-  width: 0px;                   /* Ajuste o tamanho como quiser */
-  margin: 10px auto;               /* Centraliza na tela */
+  width: 120px;                   /* Ajuste margem esquerda */
+  margin: 40px auto;               /* Ajusta margem top*/
 }
 
 .center img {             /*  foto */
-   display: block;
-    position: absolute;
-    margin-right: 20%;
-  top: 10%;
-  right: 50px ;
-  width: 50px;        /* tamanho foto */
-  height: 50px;      /* Mantém a proporção original da imagem */
-  
-  border-radius: 0%;
-  border: 5px solid #ebe7e2;
+ width: 200px; /* ou o tamanho desejado */
+  height: auto;
+  border: 2px solid rgb(224, 221, 210);
 }
 
 }
