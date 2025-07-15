@@ -135,7 +135,7 @@ const naveInimigas = () => {
   const inimigo = document.createElement("div");
   inimigo.className = "inimigo";
   inimigo.style.position = "absolute";
-  inimigo.setAttribute("data-vida", 5);
+  inimigo.setAttribute("data-vida", 1);
   inimigo.style.width = "100px";
   inimigo.style.height = "100px";
   inimigo.style.backgroundImage = "url(imagens/inimigo.gif)";
