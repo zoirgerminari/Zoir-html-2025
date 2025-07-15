@@ -31,14 +31,14 @@ color: #805b18;
   text-decoration: none;
  }
 
- .img {
-  display: block;
-  justify-content: center;
+.img {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 80px;
-  padding: 40px;
-  background: linear-gradient(to bottom, #473806, #ebdc55);
- }
+  gap: 20px;
+  padding: 0;
+  background: none; /* Remove fundo duplicado */
+}
 
  .under-construction {
   color: red;
@@ -55,3 +55,46 @@ color: #805b18;
   padding: 80px;
   background: linear-gradient(to bottom,#ebdc55, #473806);
 }
+
+@media screen and (max-width: 780px) {
+
+  html, body {
+    margin: 0;              /* evita rolagem lateral */
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+.top-bar {
+   margin: 10px; 
+    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px; /* Espaço entre menu e imagens */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 250px;      /* Defina a largura desejada */
+  min-width: 150px;
+  
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 450px;      /* Defina a largura desejada */
+  min-width: 150px;
+}
+ .menu a{
+  color: #f5e106;
+  padding: 14px 40px; /*...40 espaco entre..*/
+  float: left;
+  display: block;
+  text-decoration: none;
+ }
+
+  }
