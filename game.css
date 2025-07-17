@@ -22,11 +22,11 @@ a{
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#b044b6, #220b27);
+    background: linear-gradient(#361238, #220b27);
 }
 .game2{
    
-  background: linear-gradient(to bottom, #d4ccaf, #7127b6);
+  background: linear-gradient(to bottom, #460f9e, #7127b6);
   padding: 10px;
   text-align: center;
 
