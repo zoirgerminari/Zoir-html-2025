@@ -13,4 +13,19 @@ body {
      text-align: center;
 }
 
-
+.item {
+   color:rgb(95, 167, 201);
+    
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    font-weight: bold;
+  align-items: left;
+  gap: 25px;
+  
+}
+.item p {
+   color: rgb(14, 66, 90);
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+  }
