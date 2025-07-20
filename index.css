@@ -11,7 +11,7 @@ body{
 
 .header{
 color: #805b18;
-  background: linear-gradient(to bottom, #473806, #ebdc55);
+  /*background: linear-gradient(to bottom, #473806, #ebdc55);*/
   padding: 20px;
   text-align: center;
   
@@ -20,7 +20,7 @@ color: #805b18;
   background: linear-gradient(to bottom, #ebdc55,#473806);
  overflow: hidden;
  padding: 20px;
-
+ display: flex;
  }
 
  .menu a{
