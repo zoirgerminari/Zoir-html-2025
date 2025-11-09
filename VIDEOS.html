@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIDEOS</title>
-     <link rel="stylesheet" href="VIDEOS.css">
+    <title>VIDEOS - Zaothec Systems</title>
+    <link rel="icon" type="image/png" href="imagens/zaoicon2.png">
+    <link rel="stylesheet" href="VIDEOS.css">
 </head>
 <body>
    <header class="header">
@@ -18,11 +19,28 @@
     <br>
     <br>
 
-   <iframe src="https://www.youtube.com/embed/eV4UcOAIP-4 " frameborder="0" width="620" height="515"></iframe>
-<iframe src="https://www.youtube.com/embed/_k7aXs1CEtI " frameborder="0" width="620" height="515"></iframe>
-<!--<iframe src="http://31.53.136.215:81/capture" frameborder="0" width="720" height="515"></iframe> -->
-<iframe src="http://95.146.236.67:8080/stream" frameborder="0" width="720" height="515"></iframe>
-<iframe src="http://95.146.236.67:8080/stream" frameborder="0" width="820" height="515"></iframe>
+   <!-- Vídeos do YouTube -->
+   <div class="video-container">
+       <iframe src="https://www.youtube.com/embed/eV4UcOAIP-4" 
+               width="620" height="515" 
+               style="border: none;"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+               allowfullscreen>
+       </iframe>
+   </div>
+   
+   <div class="video-container">
+       <iframe src="https://www.youtube.com/embed/_k7aXs1CEtI" 
+               width="620" height="515" 
+               style="border: none;"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+               allowfullscreen>
+       </iframe>
+   </div>
+
+   <!-- Stream local (pode não funcionar em HTTPS) -->
+   <!--<iframe src="http://31.53.136.215:81/capture" width="720" height="515" style="border: none;"></iframe> -->
+   <!--<iframe src="http://95.146.236.67:8080/stream" width="720" height="515" style="border: none;"></iframe>-->
 
 <!--  <video controls width="320" >
   <source src="img/Firefight.mp4" type="video/mp4">
