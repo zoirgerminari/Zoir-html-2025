@@ -38,9 +38,29 @@
        </iframe>
    </div>
 
-   <!-- Stream local (pode não funcionar em HTTPS) -->
-   <!--<iframe src="http://31.53.136.215:81/capture" width="720" height="515" style="border: none;"></iframe> -->
-   <!--<iframe src="http://95.146.236.67:8080/stream" width="720" height="515" style="border: none;"></iframe>-->
+   <!-- Streams locais -->
+   <div class="stream-section">
+       <h3>⚠️ Streams Locais (podem não funcionar devido ao Mixed Content)</h3>
+       <p>Se não aparece, é porque o navegador bloqueia HTTP em sites HTTPS</p>
+       
+       <div class="video-container">
+           <iframe src="http://95.146.236.67:8080/stream" 
+                   width="720" height="515" 
+                   style="border: none;"
+                   title="Stream Local">
+           </iframe>
+       </div>
+       
+       <div class="troubleshoot">
+           <h4>💡 Para ver o stream:</h4>
+           <ul>
+               <li>1. Abra o arquivo local (file:///...VIDEOS.html)</li>
+               <li>2. Ou configure HTTPS no servidor 95.146.236.67</li>
+               <li>3. Ou permita conteúdo inseguro no navegador</li>
+           </ul>
+           <p><strong>Link direto:</strong> <a href="http://95.146.236.67:8080/stream" target="_blank">http://95.146.236.67:8080/stream</a></p>
+       </div>
+   </div>
 
 <!--  <video controls width="320" >
   <source src="img/Firefight.mp4" type="video/mp4">
