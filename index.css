@@ -93,7 +93,7 @@ body{
 .menu {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 10px;
   width: 100%;
   max-width: 250px;
   min-width: 0;
@@ -109,8 +109,8 @@ body{
   min-width: 0;
 }
  .menu a{
-  color: #474413;
-  padding: 0;
+  color: #1f1c06 !important;
+  padding: 4px 0;
   display: block;
   text-decoration: none;
  }
