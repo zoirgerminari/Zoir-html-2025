@@ -3,7 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+body {
+    min-height: 100vh;
+}
+
+.game-hub {
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-image: url('img/quadro_italiapng.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.game-hub h1 {
+    color: #d35908;
+    font-size: 2.2rem;
+}
+
+.game-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.game-link {
+    display: inline-block;
+    min-width: 230px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: #10c519;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.game-link:hover {
+    background: #6b2fa0;
+}
+
+.game2 a{
       background-position: center;
     background-size: cover; 
     color: rgb(252, 247, 247);
@@ -33,7 +80,7 @@ a{
 }
 
 button {
-    background: rgb(45, 4, 68);
+    background: rgb(20, 95, 105);
     color: rgb(230, 12, 12);
       border-radius: 50px;
     font-weight: bold;

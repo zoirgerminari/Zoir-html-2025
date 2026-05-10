@@ -1,7 +1,11 @@
 
 body {
-      color:rgb(245, 241, 241);
-    background-color: rgb(25, 108, 146);
+      color:rgb(51, 44, 44);
+    background-image: url('img/lagoaSol.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
     font-weight: bold;
@@ -14,7 +18,7 @@ body {
 }
 
 .item {
-   color:rgb(95, 167, 201);
+   color:rgb(37, 45, 49);
     
     font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
@@ -24,7 +28,7 @@ body {
   
 }
 .item p {
-   color: rgb(14, 66, 90);
+   color: rgb(223, 203, 203);
    font-size: 20px;
    font-weight: bold;
    text-align: left;
