@@ -15,6 +15,19 @@ body {
      text-decoration: none;
      text-align: center;
 }
+
+@media screen and (max-width: 780px) {
+  body {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 18px 28px;
+    font-size: 16px;
+  }
+}
   
     /* assim e o comentario no css*/
 button{

@@ -198,10 +198,31 @@ button {
 }
 @media screen and (max-width: 780px) {
 
+.game-hub {
+    background-size: cover;
+    padding: 16px;
+}
+
+.game-link {
+    min-width: 180px;
+    padding: 10px 14px;
+}
+
+.game {
+    background-size: cover;
+}
+
+button {
+    padding: 1.5rem;
+    font-size: 1rem;
+    right: 35vw;
+    top: 55vh;
+}
+
 .pipe {
     position: absolute;
     bottom: 20;
-    right: -480px;
+    right: -220px;
     width: 150px;
    
 }

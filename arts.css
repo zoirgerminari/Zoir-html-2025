@@ -63,18 +63,19 @@ a{
      display: flex;
       align-items: start; 
       justify-content: start;
-      height: 100vh;
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: hidden;
      
 }
 
 a{
     color: rgb(46, 30, 119);
-    font-size: 2rem;
-    width: 400px;
+    font-size: 1.5rem;
+    width: auto;
     text-decoration: none;
-     position: absolute;
-  top: 5%;
-  left: 70%;
+     position: static;
+     margin: 12px 0 0 12px;
   }
     h1{
     display: block;
@@ -91,9 +92,8 @@ a{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 5px;
-   position: absolute;
-  top: 20%;
+  padding: 10px;
+  position: static;
 }
 
 .item {
